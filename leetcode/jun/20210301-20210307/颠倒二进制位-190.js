@@ -46,8 +46,3 @@ var reverseBits2 = function(n) {
     return previousValue + currentValue;
   }), ''), 2)
 };
-
-let test = reverseBits2(43261596)
-console.log(test === 964176192)
-00111001011110000010100101000000
-00111001011110000010100101000000
