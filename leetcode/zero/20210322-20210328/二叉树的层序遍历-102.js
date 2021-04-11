@@ -5,8 +5,8 @@
  */
 const levelOrder = function (root) {
   if (!root) return []
-  const res = []
-  let queList = [root];
+  const res = [] // 结果集
+  let queList = [root]; 
   let temp = []; // 用于存储下一层级的节点
   let resTemp = [];   // 用户存储当前层级的值 
   let p;
