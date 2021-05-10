@@ -1,4 +1,4 @@
-const {generateTree} = require('./utils')
+const {generateTree} = require('../utils')
 /**
  * 前序遍历
  */
